@@ -38,7 +38,9 @@ Then select and open ```AboutMe.sln```
 ***[Add screenshots of your application in action]***
 
 #### Application Start
-![Image 1](https://via.placeholder.com/750x500)
+
+
+![Outline](Assets/images/ZooDiagram.png)
 #### Using the Application
 ![Image 1](https://via.placeholder.com/750x500)
 #### Application End
