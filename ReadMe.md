@@ -38,7 +38,7 @@ $ git clone [repo clone url here]
 The first part of the assignment asks to list the each animal and their behavior.
 
 
-![Image 1](Assets/images/ZooCapture1.png)
+![Image 1](Assets/images/ZooCapture1.png.PNG)
 
 
 
