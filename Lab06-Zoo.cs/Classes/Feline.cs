@@ -6,6 +6,6 @@ namespace Lab06_Zoo.cs
 {
     public abstract class Feline : Mammals
     {
-
+ 
     }
 }

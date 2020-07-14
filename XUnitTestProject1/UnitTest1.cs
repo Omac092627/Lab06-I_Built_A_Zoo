@@ -19,6 +19,20 @@ namespace XUnitTestProject1
         }
 
         [Fact]
+        public bool TigerSound()
+        {
+            Tiger testTiger = new Tiger();
+            string result = testTiger.SoundOfAnimals();
+            string expected = "Tiger actually makes the sound Rawr!";
+            Assert.Equal(expected, result);
+
+            return true;
+        }
+
+
+
+
+        [Fact]
         public void RhinoSleep()
         {
             Rhino testRhino = new Rhino();
