@@ -29,6 +29,11 @@ namespace Lab06_Zoo.cs
             return $"{Name}'s dance when they can.";
         }
 
+        public string TigerBathe()
+        {
+            return $"{Name}'s bathe in rivers";
+        }
+
         public override string SoundOfAnimals()
         {
             return $"{Name} actually makes the sound {Sound}";

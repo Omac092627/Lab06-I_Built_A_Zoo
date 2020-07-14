@@ -28,6 +28,11 @@ namespace Lab06_Zoo.cs
             return $"{Name}'s blast off with their horns!";
         }
 
+        public string RhinoHornClean()
+        {
+            return $"{Name}'s clean their horns once a month.";
+        }
+
         public override string SoundOfAnimals()
         {
             return $"{Name} actually makes the sound {Sound}!";

@@ -28,6 +28,11 @@ namespace Lab06_Zoo.cs
             return $"{Name}'s hunt and then just yawn all day and they're also {Size}";
         }
 
+        public string LionMane()
+        {
+            return $"{Name}'s have a really big mane!";
+        }
+
         public override string SoundOfAnimals()
         {
             return $"{Name} actually makes the sound {Sound}!";

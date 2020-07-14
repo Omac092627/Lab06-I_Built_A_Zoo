@@ -12,25 +12,17 @@ namespace XUnitTestProject1
         /// </summary>
 
         [Fact]
-        public void TigerSleep()
+        public bool TigerBath()
         {
             Tiger testTiger = new Tiger();
-            string result = testTiger.Sleep();
-            string expected = "Tiger goes to sleep";
-            Assert.Equal(expected, result);
-        }
-
-        [Fact]
-        public bool TigerSound()
-        {
-            Tiger testTiger = new Tiger();
-            string result = testTiger.SoundOfAnimals();
-            string expected = "Tiger actually makes the sound Rawr!";
+            string result = testTiger.TigerBathe();
+            string expected = "Tiger's bathe in rivers";
             Assert.Equal(expected, result);
 
             return true;
         }
 
+   
         [Fact]
         public bool DanceTiger()
         {
@@ -49,11 +41,11 @@ namespace XUnitTestProject1
         /// </summary>
 
         [Fact]
-        public void RhinoSleep()
+        public void RhinoHornCleaning()
         {
             Rhino testRhino = new Rhino();
-            string result = testRhino.Sleep();
-            string expected = "Rhino goes to sleep";
+            string result = testRhino.RhinoHornClean();
+            string expected = "Rhino's clean their horns once a month.";
             Assert.Equal(expected, result);
         }
 
@@ -87,11 +79,11 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void PandaSleep()
+        public void WhatUpPanda()
         {
             Panda testPanda = new Panda();
-            string result = testPanda.Sleep();
-            string expected = "Panda goes to sleep";
+            string result = testPanda.PandasUpTo();
+            string expected = "Panda's up to eating bamboo.";
             Assert.Equal(expected, result);
 
         }
@@ -108,7 +100,7 @@ namespace XUnitTestProject1
         {
             Lion testLion = new Lion();
             string result = testLion.LionsYawn();
-            string expected = "Lion's hunt and then just yawn all day";
+            string expected = "Lion's hunt and then just yawn all day and they're also pretty big";
             Assert.Equal(expected, result);
 
             return true;
@@ -116,11 +108,11 @@ namespace XUnitTestProject1
 
 
         [Fact]
-        public void LionSleep()
+        public void LionsMane()
         {
             Lion testLion = new Lion();
-            string result = testLion.Sleep();
-            string expected = "Lion goes to sleep";
+            string result = testLion.LionMane();
+            string expected = "Lion's have a really big mane!";
             Assert.Equal(expected, result);
 
         }
@@ -137,7 +129,7 @@ namespace XUnitTestProject1
         {
             Lemur testLemur = new Lemur();
             string result = testLemur.Zaboomafu();
-            string expected = "Lemur's were on the show Zaboomafu";
+            string expected = "Lemur's were on the show Zaboomafu and they're very small";
             Assert.Equal(expected, result);
 
             return true;
@@ -145,11 +137,11 @@ namespace XUnitTestProject1
 
 
         [Fact]
-        public void LemurSleep()
+        public void FamousLemurs()
         {
             Lemur testLemur = new Lemur();
-            string result = testLemur.Sleep();
-            string expected = "Lemur goes to sleep";
+            string result = testLemur.LemurOnAvatar();
+            string expected = "Lemur's were also on the show Avatar the Last Airbender";
             Assert.Equal(expected, result);
 
         }
@@ -164,7 +156,7 @@ namespace XUnitTestProject1
         {
             Gorrilla testGorilla = new Gorrilla();
             string result = testGorilla.ScaryGorilla();
-            string expected = "Gorilla's are super strong and scary!";
+            string expected = "Gorilla's are super strong and scary and their size is ubquitous!";
             Assert.Equal(expected, result);
 
             return true;
@@ -172,11 +164,11 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void GorillaSleep()
+        public void GorillaSpeak()
         {
             Gorrilla testGorilla = new Gorrilla();
-            string result = testGorilla.Sleep();
-            string expected = "Gorilla goes to sleep";
+            string result = testGorilla.GorillaLanguages();
+            string expected = "Gorilla's can communicate in sign language";
             Assert.Equal(expected, result);
 
         }

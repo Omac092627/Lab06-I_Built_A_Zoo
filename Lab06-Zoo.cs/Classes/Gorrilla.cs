@@ -28,6 +28,11 @@ namespace Lab06_Zoo.cs
             return $"{Name}'s are super strong and scary and their size is {Size}!";
         }
 
+        public string GorillaLanguages()
+        {
+            return $"{Name}'s can communicate in sign language";
+        }
+
         public override string SoundOfAnimals()
         {
             return $"{Name} actually makes the sound {Sound} and they're also {Furry}!";

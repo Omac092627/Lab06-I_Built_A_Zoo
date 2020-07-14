@@ -28,6 +28,11 @@ namespace Lab06_Zoo.cs
             return $"{Name}'s were on the show Zaboomafu and they're {Size}";
         }
 
+        public string LemurOnAvatar()
+        {
+            return $"{Name}'s were also on the show Avatar the Last Airbender";
+        }
+
         public override string SoundOfAnimals()
         {
             return $"{Name} actually makes the sound {Sound}!";

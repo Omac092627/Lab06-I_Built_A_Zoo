@@ -29,6 +29,11 @@ namespace Lab06_Zoo.cs
             return $"{Name}'s sit on their butts and eat bamboo all day!";
         }
 
+        public string PandasUpTo()
+        {
+            return $"{Name}'s up to eating bamboo.";
+        }
+
         public override string SoundOfAnimals()
         {
             return $"{Name} actually makes the sound {Sound}!";
