@@ -7,6 +7,11 @@ namespace Lab06_Zoo.cs
     public class Panda : Bears
     {
         public override string Land { get; set; }
+        public override string Games { get; set; }
+
+        public override string Size { get => base.Size; set => base.Size = value; }
+        public override string Furry { get => base.Furry; set => base.Furry = value; }
+
 
         public Panda()
         {
@@ -14,6 +19,9 @@ namespace Lab06_Zoo.cs
             Sound = "Rawr!" ;
             Eat = "Bamboo" ;
             Land = "Jungle";
+            Games = "Sleeping";
+            Size = "large";
+            Furry = "lots of fur";
         }
 
         public string PandasEat()
@@ -28,7 +36,18 @@ namespace Lab06_Zoo.cs
 
         public override string WhereDoILive()
         {
-            return $"{Name} lives in the {Land}";
+            return $"{Name} lives in the {Land} and have {Furry}";
+        }
+
+        public override string FavoriteGames()
+        {
+            return $"{Name}'s like to play with {Games}";
+
+        }
+
+        public override string LikeToHunt()
+        {
+            return $"{Name}'s like to hunt never but look how {Size} they are!";
         }
     }
 }
