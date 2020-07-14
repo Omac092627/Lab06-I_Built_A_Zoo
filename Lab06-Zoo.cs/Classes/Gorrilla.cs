@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Lab06_Zoo.cs
 {
-    class Gorrilla : Primate
+    public class Gorrilla : Primate
     {
+        public Gorrilla()
+        {
+            Name =   "Gorrilla" ;
+            Sound =  "OOOh ahh ah" ;
+            Eat =   "Bananas" ;
+        }
+
     }
 }
