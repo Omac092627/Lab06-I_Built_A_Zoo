@@ -8,7 +8,7 @@ namespace Lab06_Zoo.cs
     {
         public Gorrilla()
         {
-            Name =   "Gorrilla" ;
+            Name =   "Gorilla" ;
             Sound =  "OOOh ahh ah" ;
             Eat =   "Bananas" ;
         }

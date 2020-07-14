@@ -50,6 +50,30 @@ namespace XUnitTestProject1
         }
 
 
+        [Fact]
+        public void LemurSleep()
+        {
+            Lemur testLemur = new Lemur();
+            string result = testLemur.Sleep();
+            string expected = "Lemur goes to sleep";
+            Assert.Equal(expected, result);
+
+        }
+
+
+        [Fact]
+        public void GorillaSleep()
+        {
+            Gorrilla testGorilla = new Gorrilla();
+            string result = testGorilla.Sleep();
+            string expected = "Gorilla goes to sleep";
+            Assert.Equal(expected, result);
+
+        }
+
+
+
+
 
 
     }
