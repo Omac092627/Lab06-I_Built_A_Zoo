@@ -11,7 +11,18 @@ Lab06: I built a zoo
 ## Description
 An console application for keeping track of my animals and their behaviors in my zoo.
 
+
 ---
+
+#OOP Principals
+
+O(n), my algorithms don't have any nested loops and scale based on one method.
+
+
+
+
+
+
 
 ### Getting Started
 Clone this repository to your local machine.
