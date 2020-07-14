@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Lab06_Zoo.cs
 {
-    class Lemur : Primate
+    public class Lemur : Primate
     {
+        public Lemur()
+        {
+            Name =  "Lemur" ;
+            Sound =   "OOOh ahh ah" ;
+            Eat =  "Bananas" ;
+        }
+
     }
 }

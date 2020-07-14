@@ -4,7 +4,18 @@ using System.Text;
 
 namespace Lab06_Zoo.cs
 {
-    class Lion : Feline
+    public class Lion : Feline
     {
+
+        public Lion()
+        {
+            Name =  "Lion" ;
+            Sound =  "Rawr" ;
+            Eat = "Bloody Meat" ;
+        }
+
+
+
     }
 }
+

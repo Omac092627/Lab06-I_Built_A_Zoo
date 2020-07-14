@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Lab06_Zoo.cs
 {
-    abstract class Feline : Mammals
+    public abstract class Feline : Mammals
     {
+
     }
 }
