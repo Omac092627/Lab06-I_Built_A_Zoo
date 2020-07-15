@@ -27,12 +27,17 @@ Classes: Classes are a way for organizing and traversing my project.
 
 ---
 
+#UML FLOW CHART
+![Flow](Assets/images/UMLScreenCapFinal.PNG)
+
 #OOP Principals
 
 O(n), my algorithms don't have any nested loops and scale based on one method.
 
+For my OOP principals I gave "inheritance" to my Mammals class from my Animals class. These classes derived from Animals class
+flow all the way down to concrete animal classes. My concrete animal classes derive base class properties and three base class methods.
 
-
+For my OOP abstraction I made my Animals => Mammals => Feline or Primate or Bears or Rhino => Tiger or Lion => Rhino => Panda => Gorilla => Lemur.
 
 
 
@@ -41,7 +46,8 @@ O(n), my algorithms don't have any nested loops and scale based on one method.
 Clone this repository to your local machine.
 
 ```
-![repo](https://github.com/Omac092627/Lab06-I_Built_A_Zoo)
+$ git clone [https://github.com/Omac092627/Lab06-I_Built_A_Zoo]
+
 ```
 
 
