@@ -11,6 +11,19 @@ Lab06: I built a zoo
 ## Description
 An console application for keeping track of my animals and their behaviors in my zoo.
 
+Classes: Classes are a way for organizing and traversing my project.
+
+1. Created an Animal class that serves as my base. It is abstract because the information is different for each animal.
+2. Created a Mamal class that derives from the base Animal class. It is also abstract because of different mammals.
+3. Created a Feline/Bear/Rhino/Primate class that derive from the Mammal class. They are also abstract.
+4. Created specific animal classes i. e. (Lion, Rhino, Panda Bear) that are concrete and derive from the specific Mammal classes.
+5. Attached properties, abstract and virtual, in order to manipulate the derive class data.
+6. Gave each animal properties inherited from the Animal class.
+7. Gave each animal public, virtual, and abstract methods. Virtual and Abstract methods derive from Animal class methods.
+8. Called the inheritance method in the program file to execute the code. 
+
+
+![Outcome](Assets/images/ZooAnimalsDisplayBehaviour.PNG)
 
 ---
 
@@ -28,37 +41,16 @@ O(n), my algorithms don't have any nested loops and scale based on one method.
 Clone this repository to your local machine.
 
 ```
-$ git clone [repo clone url here]
+![repo](https://github.com/Omac092627/Lab06-I_Built_A_Zoo)
 ```
 
 
 
 ---
 
-### Visuals
-***[Add screenshots of your application in action]***
-
-#### Application Start
-
-
-![Outline](Assets/images/ZooDiagram.png)
-
-
-
-#### Using the Application
-The first part of the assignment asks to list the each animal and their behavior.
-
-
-![Image 1](Assets/images/ZooCapture1.png.PNG)
-
-
-
-
-
----
-
 ### Change Log
-
+1. V1: No unit testing
+2. V1.1: Unit testing and individual behaviors
 
 
 ------------------------------
