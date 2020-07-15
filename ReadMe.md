@@ -28,7 +28,7 @@ Classes: Classes are a way for organizing and traversing my project.
 ---
 
 #UML FLOW CHART
-![Flow](Assets/images/UMLScreenCapFinal.PNG)
+![Flow](Assets/images/Lab06Diagram-Page-1.png)
 
 #OOP Principals
 
