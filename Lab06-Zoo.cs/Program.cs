@@ -9,7 +9,9 @@ namespace Lab06_Zoo.cs
         static void Main(string[] args)
         {
             TigerExample();
+            TigerGames();
             RhinoExample();
+            RhinoHunt();
             PandaExample();
             LionExample();
             LemurExample();
@@ -49,7 +51,14 @@ namespace Lab06_Zoo.cs
         public static string TigerExample()
         {
             Tiger myTiger = new Tiger();
-            Console.WriteLine(myTiger.TigerDance());
+            Console.WriteLine(myTiger.WhereDoILive());
+            return "";
+        }
+
+        public static string TigerGames()
+        {
+            Tiger myTiger = new Tiger();
+            Console.WriteLine(myTiger.FavoriteGames());
             return "";
         }
 
@@ -59,6 +68,13 @@ namespace Lab06_Zoo.cs
             Rhino myRhino = new Rhino();
             Console.WriteLine(myRhino.RhinoNoise());
             return "";
+        }
+
+        public static string RhinoHunt()
+        {
+            Rhino myRhino = new Rhino();
+            Console.WriteLine(myRhino.LikeToHunt());
+            return myRhino.LikeToHunt();
         }
 
         public static string PandaExample()

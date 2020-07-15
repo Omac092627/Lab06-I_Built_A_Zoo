@@ -8,6 +8,9 @@ namespace Lab06_Zoo.cs
     {
 
         public override string Land { get; set; }
+        public override string Games { get; set; }
+        public override string Size { get => base.Size; set => base.Size = value; }
+        public override string Furry { get => base.Furry; set => base.Furry = value; }
 
         public Rhino()
         {
@@ -15,11 +18,19 @@ namespace Lab06_Zoo.cs
             Sound =  "Brrrsh!" ;
             Eat =  "Grass" ;
             Land = "Grasslands";
+            Games = "Ball";
+            Size = "enormous";
+            Furry = "no fur at all";
         }
 
         public string RhinoNoise()
         {
             return $"{Name}'s blast off with their horns!";
+        }
+
+        public string RhinoHornClean()
+        {
+            return $"{Name}'s clean their horns once a month.";
         }
 
         public override string SoundOfAnimals()
@@ -30,6 +41,21 @@ namespace Lab06_Zoo.cs
         public override string WhereDoILive()
         {
             return $"{Name} lives in the {Land}";
+        }
+        public string FavoirteGames()
+        {
+            return $"{Name}'s like to play with {Games}";
+        }
+
+        public override string FavoriteGames()
+        {
+            return $"{Name}'s like to play with {Games}";
+
+        }
+
+        public override string LikeToHunt()
+        {
+            return $"{Name}'s like to hunt during the day and they're not only {Size} they have {Furry}";
         }
     }
 }
