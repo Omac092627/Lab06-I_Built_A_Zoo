@@ -21,33 +21,6 @@ namespace Lab06_Zoo.cs
 
 
 
-
-        static void AnimalsExample()
-        {
-            Tiger myTiger = new Tiger();
-            Lion myLion = new Lion();
-            Rhino myRhino = new Rhino();
-            Panda myPanda = new Panda();
-            Gorrilla myGorrila = new Gorrilla();
-            Lemur myLemur = new Lemur();
-
-            Console.WriteLine(myTiger.Sleep());
-            Console.WriteLine(myTiger.SoundOfAnimals());
-
-
-            Console.WriteLine(myLion.Sleep());
-            Console.WriteLine(myLion.WhereDoILive());
-
-
-            Console.WriteLine(myRhino.Sleep());
-            Console.WriteLine(myPanda.Sleep());
-            Console.WriteLine(myGorrila.Sleep());
-            Console.WriteLine(myLemur.Sleep());
-
-
-
-        }
-
         public static string TigerExample()
         {
             Tiger myTiger = new Tiger();

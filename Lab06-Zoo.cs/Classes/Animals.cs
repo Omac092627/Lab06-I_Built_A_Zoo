@@ -29,14 +29,6 @@ namespace Lab06_Zoo.cs
 
         // methods
 
-        public string Sleep()
-        {
-            //  Console.WriteLine($"{Name} goes to sleep");
-
-            return $"{Name} goes to sleep";
-
-        }
-
 
 
         public virtual string SoundOfAnimals()
